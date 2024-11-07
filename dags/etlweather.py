@@ -6,9 +6,9 @@ from airflow.utils.dates import days_ago
 import requests
 import json
 
-# Latitude and longitude for the location (used here is London)
-LATITUDE = '51.5074'
-LONGITUDE = '-0.1278'
+# Latitude and longitude for the location (used here is Boston)
+LATITUDE = '42.3601'
+LONGITUDE = '-71.0589'
 POSTGRES_CONN_ID='postgres_default'
 API_CONN_ID='open_meteo_api'
 
